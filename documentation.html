@@ -1,0 +1,386 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Documentation Template</title>
+    <meta name="description" content="A simple HTML/CSS DocumentationTemplate">
+    <meta name="author" content="Carlos Yllobre">
+
+    <link rel="stylesheet" href="style.css?">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="navbar clear nav-top">
+        <div class="row content">
+            <a class="left logo"  href="#" style="font-size:24px">фə Kəláw yóbəl</a> <!--<img class="logo" src="logo.svg">-->
+            <a class="right" style="text-decoration: underline;" href="#"></a><!--<i class="fas fa-book"></i>&nbsp; Documentation-->
+            <a class="right" href="mailto:yourapp@email.com" target="_blank"></a><!--<i class="fas fa-paper-plane"></i>&nbsp; yourapp@email.com-->
+        </div>
+    </div>
+
+    <div class="container clear">
+        <div class="row wrapper">
+
+            <div class="sidepanel">
+
+                <a class="title" href="#">Introduction</a>
+                
+                <!-- <a class="section" href="#">Supported Versions</a>
+                <a class="section" href="#">About this App</a>
+                <a class="section" href="#technology">Technology</a> -->
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#phonology">Phonology</a>
+
+                <a class="section" href="#consonantinventory">Consonant Inventory</a>
+                <a class="section" href="#vowelinventory">Vowel Inventory</a>
+
+                <a class="section" href="#morphophonology">Morphophonology</a>
+
+
+                <a class="sub-section" href="#dissimilation">Consonant Dissimilation</a>
+                <a class="sub-section" href="#sandhi">Vowel Sandhi</a>
+                <a class="section" href="#feature3">Feature 5</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#advanced">Morphology</a>
+
+                <a class="section" href="#advanced">Feature A</a>
+                <a class="section" href="#featureb">Feature B</a>
+                <a class="section" href="#featurec">Feature C</a>
+                <a class="sub-section" href="#featurec1">Feature C.1</a>
+                <a class="sub-section" href="#featurec2">Feature C.2</a>
+                <a class="section" href="#featured">Feature D</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#accesibility">Syntax</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#moreinfo">Wordlist</a>
+            
+             <div class="space double"></div>
+
+            </div>
+
+            <div class="right-col">
+            
+
+
+                <h1 >Introduction</h1>
+                
+                <p>This language, natively known as <i>фə Kəláw yóbəl</i>, is a conlang made for the Conlang Toiletia Discord server reconstruction challenge, between June 22 and 25. It is the proto-language
+                for Team Blue's languages, and the target for reconstruction for Team Red.</p> 
+                
+                <p>This document describes the basics of the language, from its phonology and phonetics to morphophonology, morphology and syntax, and finishes with a short word-list. Since the conlang was made
+                on such short notice, this grammar is obviously an incomplete description of the language. Expect some things to not be fully explained and some gaps left unfilled.</p>
+
+                <p  id="phonology">This is also where
+                you come in: there is room for you to innovate your own words, grammar etc. as you derive your languages and make life difficult for the opposing team ;)</p>
+                 
+        <div class="divider" id="consonantinventory" style="width:36%; margin:30px 0;"></div>
+
+                <h1>Phonology</h1>
+
+                <h2>Consonant Inventory</h2>
+
+                <table>
+                <thead></thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td>Bilabial</td>
+                    <td>Dental</td>
+                    <td>Dorsal</td>
+                    <td>Glottal</td>
+                  </tr>        
+                  <tr>
+                    <td>Nasal </td>
+                    <td style="text-align:center;">m</td>
+                    <td style="text-align:right;">n</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Plosive</td>
+                    <td></td>
+                    <td style="text-align:center;">t' t</td>
+                    <td style="text-align:center;">k</td>
+                    <td style="text-align:center;">ʔ</td>
+                  </tr>
+                  <tr>
+                    <td>Fricative</td>
+                    <td style="text-align:center;">ф [v]</td>
+                    <td style="text-align:center;">ts' s [z]</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Sonorant<span style="color:#9900ff00">abca</span><br></td>
+                    <td style="text-align:center;">[w]</td>
+                    <td style="text-align:center;">r</td>
+                    <td style="text-align:center;">j</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+                
+                <p>The language has a fairly poor consonant inventory, with 11 phonemic consonants /m n t' t k ʔ ф ts' s r j/ and three allophonic consonant segments [v w z].
+                 The obstruents, except for /ф/, tend to form pairs of glottalisation. The following consonants pattern together: /t' t/, /ʔ k/ and /ts' s/. For the purposes of
+                 pho­no­tactics, the phoneme /ts'/ is treated as two consonants or a cluster, but the glottalised /s/ does not appear without the accompanying prestopping.</p> 
+
+                 <p>Consonants can cluster rather freely, and the maximum cluster is two consonants. Clusters are allowed initially, medially and finally.
+                  The primary restrictions are either that the cluster must form a geminate sequence, or that the two consonants are as distinct from eachother as they can be:
+                  they must not share either place or manner of articulation. Other than this, there are no positional restrictions: practically any cluster can form anywhere,
+              including initial geminates.</p>  
+
+                <p id="vowelinventory">The consonant /n/ behaves as though it is both a dental and dorsal for the purpose of morphophonological processes. Phonetically, it is always a dental
+                nasal [n].</p>
+                
+                
+                <h2>Vowel Inventory</h2>
+
+                <table>
+                <thead></thead>
+                <tbody>
+                  <tr>
+                    <th></th>
+                    <td>Front</td>
+                    <td>Central</th>
+                    <td>Back</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>High<span style="color:#9900ff00">aa</span></td>
+                    <td style="text-align:center;">i</td>
+                    <td style="text-align:center;"></td>
+                    <td style="text-align:center;"></td>
+                  </tr>
+                  <tr>
+                    <td>Mid</td>
+                    <td></td>
+                    <td style="text-align:center;">ə</td>
+                    <td style="text-align:center;">o</td>
+                  </tr>
+                  <tr>
+                    <td>Low</td>
+                    <td></td>
+                    <td style="text-align:center;">a</td>
+                    <td style="text-align:center;"></td>
+                  </tr>
+                </tbody>
+                </table>
+
+                <p>There are four phonemic vowels, listed here as /a i ə o/. They come in pairs of high /i o/ and low /a ə/; this determines their behaviour in morpho­pho­nolo­gical
+                processes. There is no phonemic vowel [u] anywhere in the language, and the higher back vowel always appears as [o], thus leaving it to be represented with /o/.</p>
+                
+                <p>Vowels can be either modally or markedly phonated. The marked voicing was probably creaky, though realisations could range from creaky, breathy, nasalised slack voice etc. Its
+                 distinctive feature is that it is <i>somehow</i> different from modal or tenuis voicing. Phonemically, it is represented with a noncommittant underdot diacritic: /ạ/.</p>
+
+                 <p>Phonemically, stress or pitch were not distinctive in the underlying form of the language. The second-to-last phonemic vowel in a word is always the accented one.
+                  This is complicated by <span id="morphophonology">morpho­phono­logical</span> vowel processes, which can obscure accent placement rules and cause the accent to occur "out of place" or even appear
+                  as if it were actually distinctive.</p> 
+
+                <h2 id="dissimilation">Morphophonology</h2>
+                <p>There are two important morphophonological processes in the language: <b>consonant dissimilation</b> and <b>vowel sandhi</b>.</p>
+                
+                <h3>Consonant Dissimilation</h3>
+                <p id="sandhi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Vowel Sandhi</h3>
+                <p>Lorem fucking ipsum</p>
+                <p id="accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    
+                <h2>Accent</h2>
+
+                <p>Lorem</p>
+
+                <p id="morphology">Ipsum</p>
+
+            <div class="divider" style="width:36%; margin:30px 0;"></div>
+            
+            
+                <h1>Basic Features</h1>
+
+                <h2>Feature 1</h2>
+                
+                <p id="basicfeatures">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                
+                <h2>Feature 2</h2>
+                
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br><br>
+                <b>Explanation 1</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br>
+                <br>
+                <b>Explanation 2</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br>
+                <br>
+                <b>Explanation 3</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br>
+                <br id="feature3">
+                <b>Explanation 4</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                
+                <h2>Feature 3</h2>
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br id="feature4">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                
+                <h2>Feature 4</h2>
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <br>
+                  <br>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 <br>
+                 <br id="feature5">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                
+                
+                <h2>Feature 5</h2>
+                
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>
+                </p>
+                
+        
+                
+               <h2>Feature 5</h2>
+                 
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <br id="advanced">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+                
+                <h1>Advanced Features</h1>
+                
+                <h2>Feature A</h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <br>
+                <br id="featureb">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                   
+                
+                <h2>Feature B</h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>
+                <br id="featurec">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+                
+                <h2>Feature C</h2>
+                  
+                <p id="featurec1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  
+                 
+                <h2>Feature C.1</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit:
+                </p>
+                
+                   <ul>
+                    <li>
+                    <b>Point 1</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    <li>
+                    <b>Point 2</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </li>
+                    <br id="featurec2">
+                     <li>
+                    <b>Point 3</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <br>
+                </ul>
+                   
+                 <h2>Feauture C.2</h2>
+                   
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    <br>
+                     <b>Important:</b> Please notice that lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 </p>
+                  
+                  
+                  <h2>Feature D</h2>
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <br>
+                  <br id="accesibility">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  
+                  
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+                   
+                   <h1>Accessibility</h1>
+                   
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   <br>
+                   <br>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   <br>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   
+                   <p>Lorem ipsum dolor sit amet.
+                      <br id="moreinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                   
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+                <h1>More Info</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.marks are protected by intellectual property rights.</p>
+
+                <div class="doublespace"></div>
+                <div class="divider" style="width:24%; margin:30px 0;"></div>
+                
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
